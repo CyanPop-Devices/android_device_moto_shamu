@@ -2,7 +2,7 @@
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
-# Inherit some common CM stuff.
+# Inherit some common CYANPOP stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Enhanced NFC
@@ -14,7 +14,7 @@ $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 DEVICE_PACKAGE_OVERLAYS += device/moto/shamu/overlay-cm
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_shamu
+PRODUCT_NAME := cyanpop_shamu
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6
 
