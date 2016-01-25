@@ -1,12 +1,12 @@
 [
   {
     "repository": "CyanogenMod/android_kernel_moto_shamu",
-    "target_path": "kernel/lge/hammerhead",
+    "target_path": "kernel/moto/shamu",
     "branch":      "cm-13.0"
   },
   {
     "repository": "CyanPop-Devices/proprietary_vendor_motorola",
-    "target_path": "vendor/lge",
+    "target_path": "vendor/motorola",
     "branch":      "cm-13.0"
   }
 ]
